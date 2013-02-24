@@ -20,3 +20,22 @@ test-result
 server.pid
 *.iml
 *.eml
+
+#Ignore MY files
+crap.*
+*.crap
+*.log
+*.tmp
+
+#Ignore Idea files (Home)
+.idea
+*.iml
+*.iws
+*.ipr
+atlassian-ide-settings.xml
+
+#Ignore Eclipse files (Work)
+.settings
+.project
+.classpath
+
